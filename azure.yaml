@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: azd-paas-demo
+services:
+  website:
+    project: ./src/Web
+    language: dotnet
+    host: appservice
+hooks:
+  prepackage:
+    windows:
+      shell: pwsh
+      continueOnError: false
+      interactive: true
+      run: azd-hooks/prepackage.ps1
+    posix:
+      shell: pwsh
+      continueOnError: false
+      interactive: true
+      run: azd-hooks/prepackage.ps1
+  postdeploy:
+    windows:
+      shell: pwsh
+      continueOnError: false
+      interactive: true
+      run: azd-hooks/postdeploy.ps1
