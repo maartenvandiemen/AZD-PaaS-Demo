@@ -51,6 +51,10 @@ This scenario deploys the sample **.NET EShopOnWeb Retail** application inside a
 Explain the following concepts:
 - Managed Identity
 - Logging with Application Insights
+- SQL Server
+  - In order to retrieve the credentials to login to SQL Server perform the following action:
+    - Username: `azd env get-value SQL_ADMIN_LOGIN`
+    - Password: `azd env get-value SQL_ADMIN_PASSWORD`
 - KeyVault concept and use case
 - Azure App Service
   - Scaling of Azure App Service
