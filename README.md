@@ -18,15 +18,15 @@ This repo contains a demo for Azure Platform as a Service components (Paas) whic
 
 1. Create a new folder on your machine.
 ```
-mkdir <your repo link> e.g. petender/azd-apimwithconfapi
+mkdir <your repo link> e.g. maartenvandiemen/AZD-PaaS-Demo
 ```
 2. Next, navigate to the new folder.
 ```
-cd <your repo link> e.g. petender/azd-apimwithconfapi
+cd <your repo link> e.g. maartenvandiemen/AZD-PaaS-Demo
 ```
 3. Next, run `azd init` to initialize the deployment.
 ```
-azd init -t <your repo link> e.g. petender/azd-apimwithconfapi
+azd init -t <your repo link> e.g. maartenvandiemen/AZD-PaaS-Demo
 ```
 4. Last, run `azd up` to trigger an actual deployment.
 ```
