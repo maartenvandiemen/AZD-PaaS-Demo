@@ -1,5 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
-name: azd-paas-demo
+
+name: tdd-azd-paas-demo
+metadata:
+  template: tdd-azd-paas-demo@0.0.1-beta
+infra:
+   provider: bicep
 services:
   website:
     project: ./src/Web
