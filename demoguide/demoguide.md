@@ -44,7 +44,7 @@ This scenario deploys the sample **.NET EShopOnWeb Retail** application inside a
 * Catalog - SQL Database
 * Identity - SQL Database
 
-<img src="img/ResourceGroup_Overview.png" alt="AKS Resource Group" style="width:70%;">
+<img src="https://raw.githubusercontent.com/maartenvandiemen/AZD-PaaS-Demo/refs/heads/main/demoguide/img/ResourceGroup_Overview.png" alt="AKS Resource Group" style="width:70%;">
 <br></br>
 
 ### 2. What can I demo from this scenario after deployment
