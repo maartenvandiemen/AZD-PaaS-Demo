@@ -11,6 +11,7 @@ param location string
 
 var tags = {
   'azd-env-name': environmentName
+  SecurityControl: 'Ignore'
 }
 
 resource rg 'Microsoft.Resources/resourceGroups@2022-09-01' = {
